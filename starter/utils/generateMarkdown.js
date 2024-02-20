@@ -12,12 +12,10 @@ function generateMarkdown(data) {
     badge = '![License: Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)'
     badge_description='https://opensource.org/licenses/Apache-2.0'
   }
-    
+  
   return `# ${data.title} ${badge}
 
-
 ## Description
-  
   ${data.description}
    
 ## Table of Contents
@@ -28,27 +26,19 @@ function generateMarkdown(data) {
 - [License](#license)
 
 ## Installation
-
   ${data.installation}
 
 ## Usage
-
   ${data.usage}
-
-## Credits
-
-  ${data.credits}
 
 ## License
   ${badge_description}
 
 ## How to Contribute
-
-${data.contribution}
+  ${data.contribution}
 
 ## Tests
-
-${data.tests}
+  ${data.tests}
 
 ## Questions
 
