@@ -26,11 +26,6 @@ const questions = [{
     message: 'What is the usage?',
   },
   {
-    type: 'input',
-    name: 'credits',
-    message: 'What are the credits?',
-  },
-  {
     type: 'list',
     name: 'license',
     message: 'Which is the license?',
@@ -70,7 +65,7 @@ function init() {
 
 // function call to initialize program
 init()  
-    .then((data) => writeToFile('README.md', generateMarkdown(data)))
+    .then((data) => writeToFile('../README.md', generateMarkdown(data)))
     .then(() => console.log('Successfully wrote to readme.md'))
     .catch((err) => console.error(err));
 
