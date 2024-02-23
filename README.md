@@ -31,6 +31,8 @@
 
 - Please reach to this email address with additional questions:  sarbani.bhadra@gmail.com
 
+- Link to walkthrough video: https://drive.google.com/file/d/1qxQmJdA8K9q_7yXT8nbuTjSFfIBzKEW1/view
+
 
 
   
